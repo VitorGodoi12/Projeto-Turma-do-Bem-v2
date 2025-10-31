@@ -33,7 +33,7 @@ Aqui estão algumas imagens e ícones que representam o projeto:
 A estrutura de diretórios do projeto segue o padrão modular para facilitar a manutenção e a escalabilidade:
 
 ```
-SPRINT-01
+SPRINT-02
 ├── CSS
 │   ├── contato.css
 │   ├── faq.css
@@ -60,5 +60,6 @@ SPRINT-01
 Você pode acessar o código-fonte completo e o histórico de commits deste projeto através do link abaixo:
 
 https://github.com/VitorGodoi12/Projeto-Turma-do-Bem-v2.git
+
 
 ---
