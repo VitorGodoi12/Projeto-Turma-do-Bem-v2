@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+header {
+  background-color: #0B261F;
+  padding: 15px 40px;
+  width: 100%;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.menu-principal ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.menu-principal a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.menu-principal a:hover {
+  color: #D9C0A3;
+}
+
+
+
+.intro {
+  background-color: #d3b896;
+  text-align: center;
+  padding: 80px 10%;
+}
+
+.intro h2 {
+  font-size: 2.4rem;
+  margin-bottom: 15px;
+  color: #2d2d2d;
+}
+
+.intro p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #3a3a3a;
+  line-height: 1.6;
+}
+
+/* -------- FORMULÁRIO -------- */
+.form-section {
+  background-color: #0b261f;
+  color: #fff;
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.form-section h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #d3b896;
+}
+
+form {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+  background-color: rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(10px);
+  padding: 30px;
+  border-radius: 15px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  color: #d3b896;
+}
+
+input, textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+}
+
+textarea {
+  resize: none;
+}
+
+.botao {
+  background-color: #00b874;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 12px 20px;
+  cursor: pointer;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.botao:hover {
+  background-color: #007a56;
+}
+
+.mensagem-sucesso {
+  margin-top: 20px;
+  color: #00b874;
+  font-weight: bold;
+}
+
+/* -------- CONTATOS -------- */
+.contatos {
+  background-color: #082018;
+  color: #fff;
+  text-align: center;
+  padding: 60px 10%;
+}
+
+.contatos h3 {
+  font-size: 2rem;
+  margin-bottom: 30px;
+  color: #d3b896;
+}
+
+.info {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: left;
+}
+
+.info h4 {
+  color: #00b874;
+  margin: 20px 0 10px;
+}
+
+.info ul {
+  list-style: none;
+}
+
+.info a {
+  color: #d3b896;
+  text-decoration: none;
+}
+
+.info a:hover {
+  text-decoration: underline;
+}
+
+
+a {
+  text-decoration: none;
+  color: #F2F2F0;
+}
+
+a:hover {
+  color: #D9C0A3; 
+  font-weight: bold; 
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-container p {
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-nav a:hover {
+  color: #00c896;
+}

@@ -1,0 +1,178 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+header {
+  background-color: #25594A;
+  padding: 15px 40px;
+  width: 100%;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.menu-principal ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.menu-principal a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.menu-principal a:hover {
+  color: #D9C0A3;
+}
+
+
+.intro {
+  position: relative;
+  text-align: center;
+  color: #fff;
+  padding: 80px 10%;
+  background-color: #0b261f;
+}
+
+.intro h2 {
+  font-size: 2.4rem;
+  margin-bottom: 20px;
+}
+
+.intro p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  line-height: 1.6;
+}
+
+
+.integrantes-section {
+  padding: 60px 10%;
+  text-align: center;
+  background-color: #f5f5f5;
+}
+
+.integrantes-section h2 {
+  font-size: 2rem;
+  margin-bottom: 40px;
+  color: #0b261f;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}
+
+
+.card {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 20px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.15);
+  width: 280px;
+  padding: 25px;
+}
+
+
+.foto {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-bottom: 15px;
+}
+
+.card h3 {
+  color: #0b261f;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.card p {
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.links a {
+  display: inline-block;
+  margin: 5px;
+  padding: 8px 15px;
+  background-color: #00b874;
+  color: #fff;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+}
+
+.links a:hover {
+  background-color: #007a56;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 40px 0;
+  width: 100%;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-container p {
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-nav a:hover {
+  color: #00c896;
+}

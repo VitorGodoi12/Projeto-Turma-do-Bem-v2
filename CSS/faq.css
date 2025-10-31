@@ -1,0 +1,182 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Arial", sans-serif;
+  line-height: 1.6;
+  background-color: #f9f9f9;
+  color: #222;
+}
+
+header {
+  background-color: #0B261F;
+  padding: 15px 40px;
+  width: 100%;
+}
+
+header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.logo {
+  font-size: 22px;
+  color: #ffffff;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+
+.menu-principal ul {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.menu-principal a {
+  color: #ffffff;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 18px;
+  transition: color 0.3s;
+}
+
+.menu-principal a:hover {
+  color: #D9C0A3;
+}
+
+
+/* ======== SEÇÃO DE FAQ ======== */
+
+.perguntas {
+  text-align: center;
+  margin-top: 60px;
+}
+
+.perguntas h2 {
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #594F42;
+  margin-bottom: 40px;
+}
+
+.container-cima {
+  display: grid;
+  gap: 1.5rem;
+  color: black;
+  max-width: 1100px;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+.card-turma {
+  background-color: #D9C0A3;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+}
+
+
+.titulocard {
+  font-size: 1.2rem;
+  color: #594F42;
+  margin-bottom: 10px;
+}
+
+.entre-contato {
+  text-align: center;
+  margin: 20px auto;
+  padding: 60px 20px;
+}
+
+.entre-contato h2 {
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-bottom: 20px;
+}
+
+.entre-contato p {
+  max-width: 800px;
+  margin: 20px auto;
+  font-size: 18px;
+  line-height: 1.6;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.entre-contato a {
+  text-decoration: none;
+  color: #222;
+}
+
+.entre-contato a:hover {
+  color: #00c896;
+}
+
+footer {
+  background-color: #222;
+  color: #fff;
+  text-align: center;
+  padding: 25px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer-container p {
+  font-weight: bold;
+  font-size: 0.95rem;
+  margin-bottom: 10px;
+}
+
+.footer-nav a {
+  color: #fff;
+  text-decoration: none;
+  margin: 0 10px;
+}
+
+.footer-nav a:hover {
+  color: #00c896;
+}
+
+/* ======== RESPONSIVIDADE ======== */
+@media (max-width: 768px) {
+  .container-cabecalho {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navegacao-principal ul {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+
+  .titulo {
+    font-size: 1.6rem;
+  }
+
+  .titulo2 {
+    font-size: 1.5rem;
+  }
+}

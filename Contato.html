@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Turma do Bem</title>
+    <link rel="stylesheet" href="./CSS/contato.css">
+</head>
+<body>
+    
+    <header>
+        <div class="container">
+            <h1 class="logo">Turma do Bem</h1>
+            <nav class="menu-principal">
+                <ul>
+                    <li><a href="index.html">Início</a></li>
+                    <li><a href="QuemSomos.html">Quem Somos</a></li>
+                    <li><a href="Sobre.html">Sobre</a></li>
+                    <li><a href="FAQ.html">FAQ</a></li>
+                    <li><a href="Contato.html">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+    <!-- SEÇÃO INTRODUTÓRIA -->
+    <section class="intro">
+      <h2>Entre em Contato</h2>
+      <p>
+        Caso tenha dúvidas, críticas, sugestões ou queira apenas se comunicar conosco, 
+        preencha o formulário abaixo ou entre em contato pelos nossos canais diretos.
+      </p>
+    </section>
+
+    <!-- FORMULÁRIO -->
+    <section class="form-section">
+      <h3>Envie sua Mensagem</h3>
+      <form id="formContato">
+        <div class="form-group">
+          <label for="nome">Nome:</label>
+          <input type="text" id="nome" name="nome" placeholder="Seu nome completo" required>
+        </div>
+
+        <div class="form-group">
+          <label for="email">E-mail:</label>
+          <input type="email" id="email" name="email" placeholder="seuemail@exemplo.com" required>
+        </div>
+
+        <div class="form-group">
+          <label for="mensagem">Mensagem:</label>
+          <textarea id="mensagem" name="mensagem" rows="5" placeholder="Escreva sua mensagem aqui..." required></textarea>
+        </div>
+
+        <button type="submit" class="botao">Enviar</button>
+      </form>
+
+      <p id="mensagemSucesso" class="mensagem-sucesso"></p>
+    </section>
+
+    <!-- CONTATOS -->
+    <section class="contatos">
+      <h3>Outros Meios de Contato</h3>
+      <div class="info">
+        <h4>Emails</h4>
+        <ul>
+          <li>vitorgodoi0408@gmail.com</li>
+          <li>vitorsantosdomingues2023@gmail.com</li>
+          <li>felipecuestapuerta@hotmail.com</li>
+        </ul>
+
+        <h4>LinkedIn</h4>
+        <ul>
+          <li><a href="https://www.linkedin.com/in/felipe-cuesta-20a813319" target="_blank">Felipe Cuesta</a></li>
+          <li><a href="https://www.linkedin.com/in/vitor-santos-domingues-87b573275/" target="_blank">Vitor Santos</a></li>
+          <li><a href="https://www.linkedin.com/in/vitor-godoi-189b91380" target="_blank">Vitor Godoi</a></li>
+        </ul>
+      </div>
+    </section>
+  </main>
+
+
+    <footer>
+        <div class="footer-container">
+            <p>&copy; 2025 Turma do Bem</p>
+            <nav class="footer-nav">
+                <a href="index.html">Início</a>
+                <a href="QuemSomos.html">Quem Somos</a>
+                <a href="Sobre.html">Sobre</a>
+                <a href="FAQ.html">FAQ</a>
+                <a href="Contato.html">Contato</a>
+            </nav>
+        </div>
+    </footer>
+    
+    <script src="./JS/contato.js"></script>
+</body>
+</html>
